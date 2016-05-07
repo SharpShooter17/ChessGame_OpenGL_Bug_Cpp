@@ -1,0 +1,28 @@
+1 VERSIONINFO
+FILEVERSION 1, 0, 0, 0 // wersja pliku
+PRODUCTVERSION 1, 0, 0, 0 // wersja produktu
+//FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "041504E4"
+        {
+            VALUE "CompanyName", "C++ Game Programming"                     // nazwa firmy
+            VALUE "FileVersion", "1.0"                                      // wersja pliku
+                                                                            //Opis programu
+            VALUE "FileDescription", "Szachy napisane w jezyku C++ przy pomocy bibliotek OpenGL, SFML oraz WinAPI"
+            VALUE "InternalName", "matrixxx.cba.pl"                         // wewnêtrzna nazwa pliku
+            VALUE "LegalCopyright", "(C) Copyright by Bartosz Ujazdowski"   // prawa autorskie
+            VALUE "LegalTrademarks", ""                                     // prawne znaki towarowe
+            VALUE "OriginalFilename", "Szachy [SFML][OpenGL].exe"           // oryginalna nazwa pliku
+            VALUE "ProductName", "Szachy [SFML][OpenGL]"                    // nazwa pliku
+            VALUE "ProductVersion", "1.0"                                   // wersja produktu
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0415, 1252
+    }
+}
+
+IDI_IKONA ICON "icon.ico"
